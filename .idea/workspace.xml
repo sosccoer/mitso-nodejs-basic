@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a59b91-9945-492a-9e93-7f43985aa20d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fs/files/fresh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fs/copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/copy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fs/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/create.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fs/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fs/files/fileToRemove.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fs/files/fresh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/files/fresh.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fs/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fs/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/read.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fs/rename.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/rename.js" afterDir="false" />
@@ -29,22 +30,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Node.js.cp.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.create.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rename.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;basic-node.JS&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lelya.rumyningmail.com/Desktop/mitso-nodejs-basic&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.copy.js.executor": "Run",
+    "Node.js.cp.js.executor": "Run",
+    "Node.js.create.js.executor": "Run",
+    "Node.js.delete.js.executor": "Run",
+    "Node.js.rename.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "basic-node.JS",
+    "last_opened_file_path": "/Users/lelya.rumyningmail.com/Desktop/mitso-nodejs-basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="create.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/fs/create.js" working-dir="$PROJECT_DIR$/src/fs">
       <method v="2" />
@@ -73,7 +76,7 @@
       <workItem from="1741601785377" duration="429000" />
       <workItem from="1741757322972" duration="283000" />
       <workItem from="1741757609481" duration="1282000" />
-      <workItem from="1743150012853" duration="1329000" />
+      <workItem from="1743150012853" duration="1665000" />
     </task>
     <servers />
   </component>

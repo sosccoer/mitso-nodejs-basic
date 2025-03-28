@@ -2,7 +2,7 @@ import { promises as fs } from 'fs';
 import { join } from 'path';
 
 const remove = async () => {
-    const filePath = join('fs', 'files', 'fileToRemove.txt');
+    const filePath = join('files', 'fileToRemove.txt');
 
     try {
 

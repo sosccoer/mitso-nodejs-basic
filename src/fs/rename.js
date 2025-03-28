@@ -2,8 +2,8 @@ import { promises as fs } from 'fs';
 import { join } from 'path';
 
 const rename = async () => {
-    const oldFilePath = join('src', 'fs', 'files', 'wrongFilename.txt');
-    const newFilePath = join('fs', 'files', 'properFilename.md');
+    const oldFilePath = join('files', 'wrongFilename.txt');
+    const newFilePath = join('files', 'properFilename.md');
 
     try {
 

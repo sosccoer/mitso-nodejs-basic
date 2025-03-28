@@ -2,8 +2,8 @@ import { promises as fs } from 'fs';
 import { join } from 'path';
 
 const copy = async () => {
-    const sourceFolder = join('src', 'fs', 'files');
-    const destinationFolder = join('src', 'fs', 'files_copy');
+    const sourceFolder = join('files');
+    const destinationFolder = join('files_copy');
 
     try {
 
