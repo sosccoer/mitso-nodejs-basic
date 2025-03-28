@@ -1,21 +1,16 @@
-import { promises as fs } from 'fs';
+import { writeFile } from 'fs/promises';
 import { join } from 'path';
 
 const create = async () => {
-    const folderPath = join('src', 'fs', 'files');
-    const filePath = join(folderPath, 'fresh.txt');
-    const content = 'какая-то строка';
+    const filePath = join( 'files', 'fresh.txt');
+    const content = 'I am fresh and young';
 
     try {
-
-        await fs.access(filePath);
-        throw new Error('FS operation failed');
-    } catch (err) {
-        if (err.code === 'ENOENT') {
-            await fs.writeFile(filePath, content, 'utf8');
-        } else {
-            throw err;
-        }
+        // Флаг 'w' — перезаписывает файл, если он существует
+        await writeFile(filePath, content, { flag: 'w' });
+        console.log('Content successfully written to fresh.txt!');
+    } catch (error) {
+        throw new Error('FS operation failed: ' + error.message);
     }
 };
 

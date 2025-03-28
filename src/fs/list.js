@@ -2,7 +2,7 @@ import { promises as fs } from 'fs';
 import { join } from 'path';
 
 const list = async () => {
-    const directoryPath = join('src', 'fs', 'files');
+    const directoryPath = join('fs', 'files');
 
     try {
 
