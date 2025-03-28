@@ -3,7 +3,7 @@ import { join } from 'path';
 
 const create = async () => {
     const filePath = join( 'files', 'fresh.txt');
-    const content = 'I am fresh and younggggg';
+    const content = 'My new string';
 
     try {
         // Флаг 'w' — перезаписывает файл, если он существует

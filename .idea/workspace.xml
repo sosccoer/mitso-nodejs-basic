@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a59b91-9945-492a-9e93-7f43985aa20d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/fs/copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/copy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/args.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/args.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cp/cp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp/cp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fs/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/delete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/files/fileToRemove.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fs/files/fresh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/files/fresh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/read.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fs/rename.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fs/rename.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash/calcHash.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/calcHash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/files/fileToRead.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/files/fileToRead.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/files/fileToWrite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/files/fileToWrite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/read.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/transform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/write.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/write.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wt/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wt/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wt/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wt/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zip/compress.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/zip/compress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zip/decompress.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/zip/decompress.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +40,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.args.js.executor": "Run",
+    "Node.js.calcHash.js.executor": "Run",
+    "Node.js.cjsToEsm.cjs.executor": "Run",
+    "Node.js.compress.js.executor": "Run",
     "Node.js.copy.js.executor": "Run",
     "Node.js.cp.js.executor": "Run",
     "Node.js.create.js.executor": "Run",
+    "Node.js.decompress.js.executor": "Run",
     "Node.js.delete.js.executor": "Run",
+    "Node.js.env.js.executor": "Run",
+    "Node.js.list.js.executor": "Run",
+    "Node.js.main.js.executor": "Run",
+    "Node.js.read.js.executor": "Run",
     "Node.js.rename.js.executor": "Run",
+    "Node.js.transform.js.executor": "Run",
+    "Node.js.worker.js.executor": "Run",
+    "Node.js.write.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "basic-node.JS",
     "last_opened_file_path": "/Users/lelya.rumyningmail.com/Desktop/mitso-nodejs-basic",
@@ -45,6 +65,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,7 +97,7 @@
       <workItem from="1741601785377" duration="429000" />
       <workItem from="1741757322972" duration="283000" />
       <workItem from="1741757609481" duration="1282000" />
-      <workItem from="1743150012853" duration="1665000" />
+      <workItem from="1743150012853" duration="3899000" />
     </task>
     <servers />
   </component>
